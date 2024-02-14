@@ -3,7 +3,7 @@ acceptableDigits = ["A", "B", "C", "D", "E", "F", "0", "1", "2", "3", "4", "5", 
 
 alreadyDone = False
 
-def Challenge():
+def Checker():
 	addressLenChecker = ""
 	address = input("Enter An IPv6 Address:\n")
 	print(" ")
@@ -34,7 +34,7 @@ def Challenge():
 				return False
 	return True
 	
-if Challenge():
+if Checker():
 	print("CORRECT")
 	alreadyDone = True
 else:
